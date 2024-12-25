@@ -1,0 +1,22 @@
+Q1: Pode ser feita por dois meios, Análise empírica, que consiste em comparar dois algoritmos e ver qual é mais rápido ou matemática.
+
+Q2: Em função da quantidade de entradas de dados.
+
+Q3: classe de limite superior, O (big-Oh). De limite inferior Ω (big Omega) e de limite exato Θ (big Theta).
+
+Q4: Pior Caso é o cenário mais pessimista, onde o algoritmo executa o máximo de operações necessárias. 
+O melhor Caso é o cenário mais otimista possível, onde o algoritmo executa o mínimo de operações. Por exemplo, em uma busca linear, o melhor caso acontece quando o elemento procurado está na primeira posição da lista.
+Caso Médio uma média do número de operações que o algoritmo executa para entradas de dados variadas.
+
+Q5: Nenhum.
+
+Q6: para entradas pequenas, escolheria o segundo caso, pois mesmo que no pior caso o algoritmo tenha uma complexidade cúbica, ele tem 90% de chance de ocorrer o caso linear, que será mais rápido na maioria das execuções, onde os 10% seriam compensados pela maioria das execuções.
+Já para entradas grandes, escolheria o primeiro caso, pois para numeros muito grandes, a complexidade do algoritmo cubico, pesaria no tempo de execução, a complexidade quadratica seria mais consistente.
+
+Q7: Esee algoritmo ordena um vetor de valores do menor para o maior comparando se o valor é maior ou menor que o próximo valor, percorrendo todo o vetor. No melhor caso para esse algoritmo, seria um vetor já ordenado, onde a complexidade seria quadratica (n^2). No pior caso desse algoritmo, seria um vetor inverso, onde cada elemento seria comparado com todos os outros do vetor.  No caso médio, um vetor embaralhado, que também teria complexidade n^2.
+
+Q8: É um algoritmo que solicita ao usuário a entrada de numeros e ao final exibe o maior, menor e a soma desses numeros. No melhor caso desse algoritmo seria o valor 0, onde o laço while seria executado apenas uma vez e encerraria o programa. No pior caso seria a entrada de n valores decidida delo usuário ate ser digitado o 0, onde o laço while seria executado n vezes. No caso medio, o usuario insere uma quantidade intermediaria de numeros, n/2, nesse caso a complexidade do algoritmo ainda seria de O(n), pois o laço while seria executado n vezes.
+
+Q9: Esse é um algoritmo usado para a multiplicação de duas matrizes, no melhor, pior e medio caso a complexidade desse algoritmo seria a mesma, O(n^3), pois as matrizes são constantes e o numero de operações não depende de variáveis.
+
+Q10: 
