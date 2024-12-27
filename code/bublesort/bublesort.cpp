@@ -21,7 +21,6 @@ int main()
         arr[i] = 1 + rand() %100;
         cout << arr[i] << " | ";
     }
-    
     cout << endl;
     cout << "Vetor ordenado " << endl;
     for (int j = 0; j < tam ; j++)
