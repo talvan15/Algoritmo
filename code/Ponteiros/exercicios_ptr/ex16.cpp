@@ -1,1 +1,0 @@
-/*Este código aloca dinamicamente uma matriz 2x2 e preenche-a com a soma de seus índices.*/

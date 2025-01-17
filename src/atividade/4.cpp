@@ -2,7 +2,7 @@
 #include <ctime>
 using namespace std;
 
-int bubleSort(int *vetor){
+void bubleSort(int *vetor){
     //int aux = 0;
     int tam = 100;
 
@@ -30,7 +30,6 @@ int bubleSort(int *vetor){
     
     cout << endl; 
 }
-
 int main()
 {
     srand(time(0)); // inicializa numeros aleatórios para o rand()
